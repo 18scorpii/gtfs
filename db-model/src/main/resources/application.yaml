@@ -1,0 +1,13 @@
+server:
+  port: 8090
+  servlet:
+    context-path: /gtfs
+spring:
+  banner:
+    location: banner.txt
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - "*"
